@@ -27,12 +27,12 @@ class Solution(object):
 s = Solution()
 pushed = [1,2,3,4,5]
 popped = [4,5,3,2,1]
-result = s.twoSum(pushed, popped)
+result = s.validateStackSequences(pushed, popped)
 print(result) # expected result -> true
       
 # Case Study 2        
 s = Solution()
 pushed = [1,2,3,4,5]
 popped = [4,3,5,1,2]
-result = s.twoSum(pushed, popped)
+result = s.validateStackSequences(pushed, popped)
 print(result) # expected result -> false
