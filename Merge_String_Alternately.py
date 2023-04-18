@@ -41,3 +41,31 @@ class Solution(object):
         # Convert the final merged list of characters into a single string
         str_value = ''.join(new_string)
         return str_value
+    
+
+
+# Case Study 1
+s = Solution()
+word1 = 'ad'
+word2 = 'wx'
+
+result = s.mergeAlternately(word1, word2)
+print(result) # 'awdx'
+
+
+# Case Study 2
+s = Solution()
+word1 = 'abcd'
+word2 = 'yz'
+
+result = s.mergeAlternately(word1, word2)
+print(result) # 'aybzcd'
+
+
+# Case Study 3
+s = Solution()
+word1 = 'ab'
+word2 = 'wxyz'
+
+result = s.mergeAlternately(word1, word2)
+print(result) # 'awbxyz'
